@@ -10,49 +10,49 @@
 
             <div class="modal-body">
                 <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-user"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded- rounded-pillpill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/adduser.png" alt="" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="text" class="form-control" name="full_name" placeholder="Full Name" maxlength="30" required>
+                        <input type="text" class="form-control rounded-pill" name="full_name" placeholder="Full Name" maxlength="30" required>
                     </div>
 
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-phone-alt"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/phone.png" alt="" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="text" class="form-control" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" required>
+                        <input type="text" class="form-control rounded-pill" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" required>
                     </div>
 
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-envelope"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/email.png" alt="" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                        <input type="email" class="form-control rounded-pill" name="email" placeholder="Email" required>
                     </div>
 
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-lock"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/password.png" alt="" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="password" class="form-control" name="password" placeholder="Password" minlength="6" required>
+                        <input type="password" class="form-control rounded-pill" name="password" placeholder="Password" minlength="6" required>
                     </div>
 
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-university"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/college.png" alt="" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="text" class="form-control" name="college_name" placeholder="College Name" maxlength="150" required>
+                        <input type="text" class="form-control rounded-pill" name="college_name" placeholder="College Name" maxlength="150" required>
                     </div>
 
                     <div class="form-group">
@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-primary">Create Account</button>
+                        <button type="submit" class="btn btn-block btnview rounded-pill">Create Account</button>
                     </div>
                 </form>
             </div>

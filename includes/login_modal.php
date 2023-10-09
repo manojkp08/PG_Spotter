@@ -10,26 +10,26 @@
 
             <div class="modal-body">
                 <form id="login-form" class="form" role="form" method="post" action="api/login_submit.php">
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-user"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/email.png" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="email" class="form-control" name="email" placeholder="Email" required>
+                        <input type="email" class="form-control rounded-pill" name="email" placeholder="Email" required>
                     </div>
 
-                    <div class="input-group form-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                                <i class="fas fa-lock"></i>
+                    <div class="input-group form-group rounded-pill">
+                        <div class="input-group-prepend rounded-pill">
+                            <span class="input-group-text rounded-pill">
+                                <img src="img/password.png" width="20px" height="20px">
                             </span>
                         </div>
-                        <input type="password" class="form-control" name="password" placeholder="Password" minlength="6" required>
+                        <input type="password" class="form-control rounded-pill" name="password" placeholder="Password" minlength="6" required>
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-primary">Login</button>
+                        <button type="submit" class="btn btn-block btnview rounded-pill">Login</button>
                     </div>
                 </form>
             </div>

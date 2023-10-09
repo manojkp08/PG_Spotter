@@ -51,6 +51,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
     include "includes/head_links.php";
     ?>
     <link href="css/property_list.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
@@ -174,8 +175,8 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
                             <div class="rent">₹ <?= number_format($property['rent']) ?>/-</div>
                             <div class="rent-unit">per month</div>
                         </div>
-                        <div class="button-container col-6">
-                            <a href="property_detail.php?property_id=<?= $property['id'] ?>" class="btn btn-primary">View</a>
+                        <div class="button-container col-6 rounded-pill">
+                            <a href="property_detail.php?property_id=<?= $property['id'] ?>" class="btn btnview rounded-pill">View</a>
                         </div>
                     </div>
                 </div>

@@ -15,13 +15,13 @@
                 ?>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#signup-modal">
-                            <i class="fas fa-user"></i>Signup
+                            <img src="img/adduser.png" alt="signuplogo" width="20px" height="20px"><span>Signup</span>
                         </a>
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">
-                            <i class="fas fa-sign-in-alt"></i>Login
+                            <img src="img/login.png" alt="signuplogo" width="20px" height="20px"><span>Login</span>
                         </a>
                     </li>
                 <?php
@@ -32,13 +32,13 @@
                     </div>
                     <li class="nav-item">
                         <a class="nav-link" href="dashboard.php">
-                            <i class="fas fa-user"></i>Dashboard
+                            <img src="img/dashboard.png" alt="signuplogo" width="20px" height="20px"><span>Dashboard</span>
                         </a>
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">
                         <a class="nav-link" href="logout.php">
-                            <i class="fas fa-sign-out-alt"></i>Logout
+                            <img src="img/login.png" alt="signuplogo" width="20px" height="20px"><span>Logout</span>
                         </a>
                     </li>
                 <?php

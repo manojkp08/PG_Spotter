@@ -63,6 +63,7 @@ $interested_users_count = mysqli_num_rows($result_4);
     include "includes/head_links.php";
     ?>
     <link href="css/property_detail.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
@@ -192,8 +193,8 @@ $interested_users_count = mysqli_num_rows($result_4);
                 <div class="rent">₹ <?= number_format($property['rent']) ?>/-</div>
                 <div class="rent-unit">per month</div>
             </div>
-            <div class="button-container col-6">
-                <a href="#" class="btn btn-primary">Book Now</a>
+            <div class="button-container col-6 rounded-pill">
+                <a href="#" class="btn btnview rounded-pill">Book Now</a>
             </div>
         </div>
     </div>

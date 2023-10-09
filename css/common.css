@@ -46,6 +46,22 @@ h5 {
     font-weight: bold;
 }
 
+.btnview{
+    background-color: #225e8f;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+    border-color: #225e8f;
+}
+
+.viewbtndiv{
+    border-radius: 40px;
+}
+
+.btnview:hover{
+    background-color: #3e7099;
+}
+
 .input-group .input-group-text i {
     width: 14px;
 }
@@ -111,7 +127,7 @@ input[type="radio"] {
 
 /* Header */
 .header {
-    background-color: rgb(141, 186, 255);
+    background: linear-gradient(90deg, #48D3FF 50%, #B0F1FF 100%);
     font-size: 13px;
     border-radius: 0 0 20px 20px;
 }

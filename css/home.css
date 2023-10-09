@@ -15,7 +15,7 @@
 .city-search {
     max-width: 530px;
     margin: auto;
-    border-radius: 50px;
+    background-color: white;
     position: relative;
 }
 

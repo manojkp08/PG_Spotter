@@ -25,10 +25,10 @@ session_start();
         <h2 class="white pb-3">Book Your PG With Ease 😁</h2>
 
         <form id="search-form" action="property_list.php" method="GET">
-            <div class="input-group city-search">
+            <div class="input-group city-search rounded-pill">
                 <input type="text" class="form-control input-city rounded-pill" id='city' name='city' placeholder="Enter your city to search for PGs" />
                 <div class="input-group-append rounded-pill">
-                    <button type="submit" class="btn searchbtn">
+                    <button type="submit" class="btn searchbtn rounded-pill">
                         <img src="img/search.png" alt="searchbtn" height="20px" width="20px">
                     </button>
                 </div>
