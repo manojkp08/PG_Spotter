@@ -7,12 +7,13 @@ session_start();
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome | PG Life</title>
+    <title>PG Spotter | Book Your PG With Ease</title>
 
     <?php
     include "includes/head_links.php";
     ?>
     <link href="css/home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>
@@ -21,14 +22,14 @@ session_start();
     ?>
 
     <div class="banner-container">
-        <h2 class="white pb-3">Happiness per Square Foot</h2>
+        <h2 class="white pb-3">Book Your PG With Ease 😁</h2>
 
         <form id="search-form" action="property_list.php" method="GET">
             <div class="input-group city-search">
-                <input type="text" class="form-control input-city" id='city' name='city' placeholder="Enter your city to search for PGs" />
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">
-                        <i class="fa fa-search"></i>
+                <input type="text" class="form-control input-city rounded-pill" id='city' name='city' placeholder="Enter your city to search for PGs" />
+                <div class="input-group-append rounded-pill">
+                    <button type="submit" class="btn searchbtn">
+                        <img src="img/search.png" alt="searchbtn" height="20px" width="20px">
                     </button>
                 </div>
             </div>

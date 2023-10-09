@@ -9,7 +9,7 @@
 
 .property-amenities,
 .property-rating {
-    background-color: #fcfaf7;
+    background-color: #1bcdff;
 }
 
 .star-container i {
@@ -131,7 +131,7 @@
 }
 
 .rating-circle {
-    background-color: #66C2BD;
+    background-color: #09365b;
     color: white;
     text-align: center;
     height: 160px;

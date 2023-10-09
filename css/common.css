@@ -111,8 +111,9 @@ input[type="radio"] {
 
 /* Header */
 .header {
-    background-color: white;
+    background-color: rgb(141, 186, 255);
     font-size: 13px;
+    border-radius: 0 0 20px 20px;
 }
 
 .header .navbar .navbar-brand img {
@@ -182,4 +183,8 @@ input[type="radio"] {
     color: #a9a9a9;
     text-align: center;
     padding-top: 24px;
+}
+
+.searchbtn{
+    background-color: white;
 }
