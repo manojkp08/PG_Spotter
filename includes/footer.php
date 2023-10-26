@@ -13,8 +13,11 @@
             <div class="footer-city">
                 <a href="property_list.php?city=Hyderabad">PG in Hyderabad</a>
             </div>
+            <div class="footer-city">
+                <a href="property_list.php?city=Bhopal">PG in Bhopal</a>
+            </div>
         </div>
-        <div class="footer-copyright">© 2020 Copyright PG Life </div>
+        <div class="footer-copyright">© 2023 Copyright PG Life </div>
     </div>
 </div>
 

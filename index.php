@@ -72,6 +72,13 @@ session_start();
                     </div>
                 </a>
             </div>
+            <div class="city-card-container col-md">
+                <a href="property_list.php?city=Bhopal">
+                    <div class="city-card rounded-circle">
+                        <img src="img/delhi.png" class="city-img" />
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 
